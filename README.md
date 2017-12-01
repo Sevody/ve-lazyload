@@ -17,7 +17,7 @@ Vue.component('ve-lazyload', VeLazyload);
 ```
 
 ```html
-<ve-lazyload text="Hello World!"></ve-lazyload>
+<ve-lazyload :src="targetImg" width="100px" height ="100px"></ve-lazyload>
 ```
 
 ## UMD
@@ -27,7 +27,7 @@ $ npm run build:umd
 ```
 
 ```html
-<ve-lazyload text="Hello World!"></ve-lazyload>
+<ve-lazyload :src="targetImg" width="100px" height ="100px"></ve-lazyload>
 
 <script src="https://unpkg.com/vue" charset="utf-8"></script>
 <script src="./dist/ve-lazyload.min.js" charset="utf-8"></script>
