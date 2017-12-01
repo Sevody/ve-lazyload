@@ -1,26 +1,4 @@
 <template lang="html">
-  <strong>{{ text }}</strong>
-</template>
-
-<script>
-/**
- * Component documentation
- */
-export default {
-  name: 've-lazyload',
-  props: {
-    /**
-     * The component text
-     */
-    text: {
-      type: String,
-      default: '',
-      required: true
-    },
-  },
-}
-</script>
-<template lang="html">
   <div class="ve-lazyload" :style="customStyle">
     <div ref="padding" class="padding">
       <img :src="paddingImg" alt="paddingImg" :style="paddingImgStyle">
